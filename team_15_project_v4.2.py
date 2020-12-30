@@ -40,7 +40,7 @@ warnings.filterwarnings('ignore')
 # import re
 
 #Read data into file
-data_raw = pd.read_excel("C:/Users/caesa/Documents/UCI/Fall 2020/BANA 212/Project/global_superstore/Global_Superstore2.xlsx")
+data_raw = pd.read_excel("C:/Users/caesa/Documents/UCI/Fall 2020/BANA 212/cust_risk_profile/churn_risk_profile/Global_Superstore2.xlsx")
 
 raw_data = data_raw.copy()
 
@@ -1033,3 +1033,5 @@ plt.title('AdaBoost Parameter Tunning: Risk Profile')
 #     accuracy                           0.57       159
 #    macro avg       0.56      0.57      0.55       159
 # weighted avg       0.61      0.57      0.58       159
+
+#push into repository
